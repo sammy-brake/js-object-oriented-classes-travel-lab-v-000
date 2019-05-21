@@ -6,7 +6,7 @@ class Driver {
   };
 
   yearsExperienceFromBeginningOf(year) {
-
+    let dateVariable = new Date(year, 0);
   };
 };
 
