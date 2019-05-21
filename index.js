@@ -7,8 +7,8 @@ class Driver {
 
   yearsExperienceFromBeginningOf(year) {
     let dateVariable = new Date(year, 0);
-    variableYear = year.getFullYear();
-    startYear = this.startDate.getFullYear();
+    let variableYear = year.getFullYear();
+    let startYear = this.startDate.getFullYear();
     return variableYear - startYear;
   };
 };
