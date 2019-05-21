@@ -32,10 +32,10 @@ class Route {
   }
 
   blocksTravelled() {
-    verticalBlocks = this.beginningLocation.vertical - this.endingLocation.vertical;
-    horizontalStart = eastWest.indexof(this.beginningLocation.horizontal);
-    horizontalEnd = eastWest.indexof(this.endingLocation.horizontal);
-    horizontalBlocks = horizontalStart - horizontalEnd;
+    let verticalBlocks = this.beginningLocation.vertical - this.endingLocation.vertical;
+    let horizontalStart = eastWest.indexof(this.beginningLocation.horizontal);
+    let   horizontalEnd = eastWest.indexof(this.endingLocation.horizontal);
+    let   horizontalBlocks = horizontalStart - horizontalEnd;
     return verticalBlocks + horizontalBlocks;
   }
 }
