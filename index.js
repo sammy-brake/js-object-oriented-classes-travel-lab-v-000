@@ -38,4 +38,8 @@ class Route {
     let   horizontalBlocks = horizontalStart - horizontalEnd;
     return -(verticalBlocks + horizontalBlocks);
   }
+
+  estimatedTime() {
+    
+  }
 }
