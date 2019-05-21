@@ -32,6 +32,6 @@ class Route {
   }
 
   blocksTravelled() {
-    this.beginningLocation['vertical'] - this.endingLocation['vertical'];
+    this.beginningLocation.vertical - this.endingLocation.vertical;
   }
 }
