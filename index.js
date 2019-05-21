@@ -5,7 +5,7 @@ class Driver {
     this.startDate = new date(startDate);
   };
 
-  
+
 
 class Route {
   constructor(beginningLocation, endingLocation) {
