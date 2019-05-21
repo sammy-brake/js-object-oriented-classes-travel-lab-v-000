@@ -35,5 +35,7 @@ class Route {
     verticalBlocks = this.beginningLocation.vertical - this.endingLocation.vertical;
     horizontalStart = eastWest.indexof(this.beginningLocation.horizontal);
     horizontalEnd = eastWest.indexof(this.endingLocation.horizontal);
+    horizontalBlocks = horizontalStart - horizontalEnd;
+    return verticalBlocks + horizontalBlocks;
   }
 }
