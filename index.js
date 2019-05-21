@@ -4,6 +4,10 @@ class Driver {
     this.name = name;
     this.joinDate = startDate;
   };
+
+  startDate() {
+    return new date(startDate)
+  }
 }
 
 class Route {
