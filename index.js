@@ -6,7 +6,7 @@ class Driver {
   };
 
   startDate() {
-    return new date(startDate)
+    return new date(startDate);
   }
 }
 
