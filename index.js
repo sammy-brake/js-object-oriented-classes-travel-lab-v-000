@@ -36,6 +36,6 @@ class Route {
     let horizontalStart = eastWest.indexOf(this.beginningLocation.horizontal);
     let   horizontalEnd = eastWest.indexOf(this.endingLocation.horizontal);
     let   horizontalBlocks = horizontalStart - horizontalEnd;
-    return verticalBlocks + horizontalBlocks;
+    return -(verticalBlocks + horizontalBlocks);
   }
 }
